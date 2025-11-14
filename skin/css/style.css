@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+@media (min-width: 993px) {
+    .w3-col.l6 {
+        width: 49.99999%;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+h3 {
+    font-size: 24px;
+}
+.header {
+	display: flex;
+	background-color: #151515;
+	position: fixed;
+	right: 0;
+	left: 0;
+}
+.header-logo .logo{
+    width: 160px;
+    height: 58px;
+    display: block;
+}
+img {
+	margin: auto 50px;
+}
+nav{
+	background: #151515;
+	padding: 5px 60px;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+nav ul li{
+	padding: 15px 0;
+	cursor: pointer;
+}
+nav ul li.items{
+	position: relative;
+	width: auto;
+	margin: 0 15px;
+	text-align: center;
+}
+nav ul li a{
+	color:white;
+	font-size: 16px;
+	text-decoration: none;
+}
+nav ul li.items:after{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	content: "";
+	height: 2px;
+	width: 100%;
+	background: cyan;
+	opacity: 0;
+	transition: all 0.5s;
+}
+nav ul li.items:hover:after{
+	opacity: 1;
+	bottom: 15px;
+}
+nav ul li:hover a{
+	color: cyan;
+}
+nav ul li.logo{
+	flex: 1;
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+	user-select: none;
+}
+@media all and (max-width: 800px){
+	nav{
+		padding: 5px 30px;
+	}
+	nav ul li.items{
+		width: 100%;
+		display: block;
+	}
+	nav ul li.items:hover{
+		box-shadow: inset 0 0 5px cyan,
+		            inset 0 0 15px cyan;
+		border-radius: 30px;
+	}
+	nav ul li.items:hover:after{
+		opacity: 0;
+	}
+}
+.ws-light-green{
+    background-color: #D9EEE1 !important;
+    color: black !important;
+}
+.w3-content{
+    display: flex;
+    width: 100%;
+}
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 16px /*15px*/;
+}
+.tut-button{
+    
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+}
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-content .tut-button{
+	background-color: #04AA6D;
+    color: white;
+}
+.ws-light-green{
+    padding-top: 85px !important;
+    padding-bottom: 32px !important;
+}
+.w3-padding-32{
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+.w3-center{
+    text-align: center !important;
+}
+.w3-content{
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 {
+    font-size: 80px;
+    margin: 2px 0 -20px 0 !important;
+}
+h1 {
+	margin: 10px 0;
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 16px /*15px*/;
+}
+.w3-card, .w3-card-2 {
+    box-shadow: 0 2px 5px 0 
+    rgba(0, 0, 0, 0.16), 
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.grey-color {
+    background-color: #E7E9EB;
+    color: #000;
+}
+.green-border{
+    border-left: 4px solid #04AA6D;
+}
+
+.w3-code, w3-codeline {
+    font-size: 15px;
+}
+.w3-code {
+    border-left: 4px solid #04AA6D;
+}
+.w3-section, .w3-code {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+.w3-code {
+    width: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word;
+}
+.ws-black {
+    background-color: #282A35 !important;
+    color: white !important;
+}
+.tut-button:hover, .tryit-button:hover, .exercise-button:hover, #getdiploma a:hover: (0,2,0)
+ {
+    background-color: #059862 !important;
+    color: white !important;
+}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+a:hover, a:active {
+    color: #059862;
+}
+a:active, a:hover {
+    outline-width: 0;
+}
+.tryit-button {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 200px;
+}
+.ws-yellow {
+    background-color: #FFF4A3 !important;
+    color: black !important;
+}
+.black-color{
+    background-color: #282A35;
+    color: white;
+}
+.w3-round, .w3-round-medium{
+    border-radius: 5px;
+}
+.ws-white{
+	background-color: #fff !important;
+}
+.w3-padding-64{
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+.footer{
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

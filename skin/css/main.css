@@ -1,0 +1,144 @@
+/* ========== STYLE.CSS ========== */
+/* Reset nhẹ cho toàn trang */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Toàn trang */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Thanh menu */
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  background: #fff;
+  color: #0077cc;
+  transform: translateY(-2px);
+}
+
+/* Nội dung chính */
+.main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 50px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-3px);
+}
+
+section h2 {
+  color: #0077cc;
+  border-left: 4px solid #0077cc;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Code block */
+pre {
+  background: #1e1e1e;
+  color: #00ff7f;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+code {
+  color: #ffb300;
+}
+
+/* Khung ví dụ minh họa */
+.example {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Nút */
+button, .btn {
+  cursor: pointer;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background-color: #0077cc;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #005fa3;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 22px;
+  }
+
+  .nav a {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  section {
+    padding: 18px;
+  }
+}
