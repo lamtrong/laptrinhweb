@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>HTML cơ bản</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../upload/favicon.ico">
+        <link href="../skin/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../skin/css/w3schools.css?v=1.0.1">
+    </head>
+    <body>
+        <header class="header" >
+            <div class="header-logo">
+                <a class="logo" href="../index.html">
+                    <img src="../skin/img/logo.png" alt="Logo" style="width:58px; height:auto;" />
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="items"><a href="../index.html">TRANG CHỦ</a></li>
+                    <li class="items active"><a href="#">HTML</a></li>
+                    <li class="items"><a href="css/default.html">CSS</a></li>
+                    <li class="items"><a href="js/default.html">JAVASCRIPT</a></li>
+                    <li class="items"><a href="bootstrap/bootstrap.html">BOOTSTRAP</a></li>
+                    <li class="items"><a href="jquery/default.html">JQUERY</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class='w3-sidebar w3-collapse' id='sidenav' style="line-height: 1.5;">
+            <div id='leftmenuinner'>
+                <div id="leftmenuinnerinner" class="checkmarks-enabled">
+                    <h2 class="left">Hướng dẫn <span class="left_h2">HTML</span></h2>
+                    <a target="_top" href="default.html">Trang chủ HTML</a>
+                    <a target="_top" href="html_intro.html">Giới thiệu HTML</a>
+                    <a target="_top" href="html_editors.html">Trình soạn thảo HTML</a>
+                    <a target="_top" href="#" class="active">HTML cơ bản</a>
+                    <a target="_top" href="html_elements.html">Các phần tử HTML</a>
+                    <a target="_top" href="html_attributes.html">Thuộc tính HTML</a>
+                    <a target="_top" href="html_headings.html">Tiêu đề HTML</a>
+                    <a target="_top" href="html_paragraphs.html">Đoạn văn HTML</a>
+                    <a target="_top" href="html_styles.html">Kiểu HTML</a>
+                    <a target="_top" href="html_formatting.html">Định dạng HTML</a>
+                    <a target="_top" href="html_quotation_elements.html">Trích dẫn HTML</a>
+                    <a target="_top" href="html_comments.html">Bình luận HTML</a>
+                    <a target="_top" href="html_colors.html" class="overview_header">Màu HTML<span class="w3s-accordion"></span></a>
+                    <div class="tut_overview overview_body">
+                        <a target="_top" href="html_colors.html" class="-height-0" data-height-class="-height-0">Colors</a>
+                        <a target="_top" href="html_colors_rgb.html" class="-height-0" data-height-class="-height-0">RGB</a>
+                        <a target="_top" href="html_colors_hex.html" class="-height-0" data-height-class="-height-0">HEX</a>
+                        <a target="_top" href="html_colors_hsl.html" class="-height-0" data-height-class="-height-0">HSL</a>
+                    </div>
+                    <a target="_top" href="html_css.html">HTML CSS</a>
+                    <a target="_top" href="html_links.html" class="overview_header">Liên kết HTML<span class="w3s-accordion"></span></a>
+                    <div class="tut_overview overview_body">
+                        <a target="_top" href="html_links.html" class="-height-0" data-height-class="-height-0">Links</a>
+                        <a target="_top" href="html_links_colors.html" class="-height-0" data-height-class="-height-0">Link Colors</a>
+                        <a target="_top" href="html_links_bookmarks.html" class="-height-0" data-height-class="-height-0">Link Bookmarks</a>
+                    </div>
+                    <a target="_top" href="html_images.html" class="overview_header">Hình ảnh HTML<span class="w3s-accordion"></span></a>
+                    <div class="tut_overview overview_body">
+                        <a target="_top" href="html_images.html" class="-height-0" data-height-class="-height-0">Images</a>
+                        <a target="_top" href="html_images_imagemap.html" class="-height-0" data-height-class="-height-0">Image Map</a>
+                        <a target="_top" href="html_images_background.html" class="-height-0" data-height-class="-height-0">Background Images</a>
+                        <a target="_top" href="html_images_picture.html" class="-height-0" data-height-class="-height-0">The Picture Element</a>
+                    </div>
+                    <a target="_top" href="html_favicon.html">Biểu tượng HTML</a>
+                    <a target="_top" href="html_page_title.html">Tiêu đề trang HTML</a>
+                    <a target="_top" href="html_tables.html" class="overview_header">Bảng HTML<span class="w3s-accordion"></span></a>
+                    <div class="tut_overview overview_body">
+                        <a target="_top" href="html_tables.html" class="-height-0" data-height-class="-height-0">HTML Tables</a>
+                        <a target="_top" href="html_table_borders.html" class="-height-0" data-height-class="-height-0">Table Borders</a>
+                        <a target="_top" href="html_table_sizes.html" class="-height-0" data-height-class="-height-0">Table Sizes</a>
+                        <a target="_top" href="html_table_headers.html" class="-height-0" data-height-class="-height-0">Table Headers</a>
+                        <a target="_top" href="html_table_padding_spacing.html" class="-height-0" data-height-class="-height-0">Padding &amp; Spacing</a>
+                        <a target="_top" href="html_table_colspan_rowspan.html" class="-height-0" data-height-class="-height-0">Colspan &amp; Rowspan</a>
+                        <a target="_top" href="html_table_styling.html" class="-height-0" data-height-class="-height-0">Table Styling</a>
+                        <a target="_top" href="html_table_colgroup.html" class="-height-0" data-height-class="-height-0">Table Colgroup</a>
+                    </div>
+                    <a target="_top" href="html_lists.html" class="overview_header">Danh sách HTML<span class="w3s-accordion"></span></a>
+                    <div class="tut_overview overview_body">
+                        <a target="_top" href="html_lists.html" class="-height-0" data-height-class="-height-0">Lists</a>
+                        <a target="_top" href="html_lists_unordered.html" class="-height-0" data-height-class="-height-0">Unordered Lists</a>
+                        <a target="_top" href="html_lists_ordered.html" class="-height-0" data-height-class="-height-0">Ordered Lists</a>
+                        <a target="_top" href="html_lists_other.html" class="-height-0" data-height-class="-height-0">Other Lists</a>
+                    </div>
+                    <a target="_top" href="html_blocks.html">Khối HTML &amp; Nội tuyến</a>
+                    <a target="_top" href="html_div.html">Phân vùng HTML</a>
+                    <a target="_top" href="html_classes.html">Các lớp HTML</a>
+                    <a target="_top" href="html_id.html">Mã HTML</a>
+                    <a target="_top" href="html_iframe.html">Khung HTML Iframe</a>
+                    <a target="_top" href="html_scripts.html">HTML JavaScript</a>
+                    <a target="_top" href="html_filepaths.html">Đường dẫn tệp HTML</a>
+                    <a target="_top" href="html_head.html">Đầu HTML</a>
+                    <a target="_top" href="html_layout.html">Bố cục HTML</a>
+                    <a target="_top" href="html_responsive.html">HTML đáp ứng</a>
+                    <a target="_top" href="html_computercode_elements.html">Mã máy tính HTML</a>
+                    <a target="_top" href="html5_semantic_elements.html">Ngữ nghĩa HTML</a>
+                    <a target="_top" href="html5_syntax.html">Hướng dẫn về phong cách HTML</a>
+                    <a target="_top" href="html_entities.html">Các thực thể HTML</a>
+                    <a target="_top" href="html_symbols.html">Biểu tượng HTML</a>
+                    <a target="_top" href="html_emojis.html">Biểu tượng cảm xúc HTML</a>
+                    <a target="_top" href="html_charset.html">Bộ ký tự HTML</a>
+                    <a target="_top" href="html_urlencode.html">Mã hóa URL HTML</a>
+                    <a target="_top" href="html_xhtml.html" class="not-wired">HTML so với XHTML</a>
+                    <br>
+                    <h2 class="left">Biểu mẫu HTML</h2>
+                    <a target="_top" href="html_forms.html">Biểu mẫu HTML</font></font></a>
+                    <a target="_top" href="html_forms_attributes.html">Thuộc tính biểu mẫu HTML</a>
+                    <a target="_top" href="html_form_elements.html">Các phần tử biểu mẫu HTML</a>
+                    <a target="_top" href="html_form_input_types.html">Các loại đầu vào HTML</a>
+                    <a target="_top" href="html_form_attributes.html">Thuộc tính đầu vào HTML</a>
+                    <a target="_top" href="html_form_attributes_form.html" class="not-wired">Thuộc tính biểu mẫu đầu vào</a>
+                    <br>
+                    <h2 class="left">Ví dụ về HTML</h2>
+                    <a target="_top" class="no-checkmark" href="html_examples.html">Ví dụ về HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_editor.html">Trình soạn thảo HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_quiz.html">Bài kiểm tra HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_exercises.html">Bài tập HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_website.html">Trang web HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_syllabus.html">Giáo trình HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_study_plan.html">Kế hoạch học tập HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_interview_prep.html">Chuẩn bị phỏng vấn HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_bootcamp.html">Trại huấn luyện HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_exam.html">Chứng chỉ HTML</a>
+                    <a target="_top" class="no-checkmark" href="html_summary.html">Tóm tắt HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="html_accessibility.html">Khả năng truy cập HTML</a>
+                    <br>
+                    <h2 class="left"><span class="left_h2">Tài liệu tham khảo <span class="left_h2"></span></h2>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/default.html">Danh sách thẻ HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_attributes.html">Thuộc tính HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_standardattributes.html">Thuộc tính toàn cục HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_html_browsersupport.html">Hỗ trợ trình duyệt HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_eventattributes.html">Sự kiện HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_colornames.html">Màu HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_canvas.html">HTML Canvas</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_av_dom.html">Âm thanh/Video HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_html_dtd.html">Kiểu tài liệu HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_charactersets.html">Bộ ký tự HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_urlencode.html">Mã hóa URL HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_language_codes.html">Mã ngôn ngữ HTML</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_httpmessages.html">Tin nhắn HTTP</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_httpmethods.html">Phương pháp HTTP></a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_pxtoemconversion.html">Bộ chuyển đổi PX sang EM</a>
+                    <a target="_top" class="no-checkmark not-wired" href="../tags/ref_keyboardshortcuts.html">Phím tắt</a><br><br>
+                </div>
+            </div>
+        </div>
+        <div class="w3-main w3-light-grey" id="belowtopnav" style="margin-left:230px;">
+            <div class="w3-row w3-white">
+                <div class="w3-col l10 m12" id="main">
+                    <h1 class="with-bookmark">Ví dụ cơ bản về HTML</h1>
+                    <div class="w3-clear nextprev">
+                        <a class="w3-left w3-btn" href="html_editors.html">❮ Trước</a>
+                        <a class="w3-right w3-btn" href="html_elements.html" data-intercepted="true">Kế tiếp ❯</a>
+                    </div>
+                    <hr>
+                    <p class="intro">Trong chương này chúng tôi sẽ trình bày một số ví dụ HTML cơ bản.</p>
+                    <p class="intro">Đừng lo lắng nếu chúng tôi sử dụng những thẻ mà bạn chưa biết.</p>
+                    <hr>
+                    <h2>Tài liệu HTML</h2>
+                    <p>Tất cả tài liệu HTML phải bắt đầu bằng khai báo loại tài liệu: <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code>.</p>
+                    <p>Bản thân tài liệu HTML bắt đầu bằng <code class="w3-codespan">&lt;html&gt;</code>và kết thúc bằng <code class="w3-codespan">&lt;/html&gt;</code>.</p>
+                    <p>Phần hiển thị của tài liệu HTML nằm giữa <code class="w3-codespan">&lt;body&gt;</code>và <code class="w3-codespan">&lt;/body&gt;</code>.</p>
+                    <div class="w3-example">
+                        <h3>Ví dụ</h3>
+                        <div class="w3-code notranslate htmlHigh">
+                            <span class="doctypecolor" style="color:slategray">&lt;!DOCTYPE html&gt;</span><br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>html
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span><br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>body
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span><br>
+                            <br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>h1
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>My First Heading
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/h1
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span><br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>p
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>My first paragraph.
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/p
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span><br>
+                            <br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/body
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span><br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/html
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span> 
+                        </div>
+                        <a class="w3-btn w3-margin-bottom" href="tryhtml_basic_document.html" target="_blank">Hãy tự mình thử »</a>
+                    </div>
+                    <hr>
+                    <h2>Tuyên bố &lt;!DOCTYPE&gt;</h2>
+                    <p>Khai báo này <code class="w3-codespan">&lt;!DOCTYPE&gt;</code>>thể hiện loại tài liệu và giúp trình duyệt hiển thị các trang web một cách chính xác.</p>
+                    <p>Nó chỉ được xuất hiện một lần, ở đầu trang (trước bất kỳ thẻ HTML nào).</p>
+                    <p>Tuyên bố này <code class="w3-codespan">&lt;!DOCTYPE&gt;</code>không phân biệt chữ hoa chữ thường.</p>
+                    <p>Khai <code class="w3-codespan">&lt;!DOCTYPE&gt;</code>báo cho HTML5 là:</p>
+                    <div class="w3-example">
+                        <div class="w3-code notranslate htmlHigh">
+                            <span class="doctypecolor" style="color:slategray">&lt;!DOCTYPE html&gt;</span> 
+                        </div>
+                    </div>
+                    <hr>
+                    <h2>Tiêu đề HTML</h2>
+                    <p>Tiêu đề HTML được định nghĩa bằng thẻ <code class="w3-codespan">&lt;h1&gt;</code>to <code class="w3-codespan">&lt;h6&gt;</code>.</p>
+                    <p><code class="w3-codespan">&lt;h1&gt;</code>định nghĩa tiêu đề quan trọng nhất. <code class="w3-codespan">&lt;h6&gt;</code>định nghĩa tiêu đề ít quan trọng nhất:&nbsp;</p>
+                    <div class="w3-example">
+                        <h3>Ví dụ</h3>
+                        <div class="w3-code notranslate htmlHigh">
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>h1
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>This is heading 1
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/h1
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span><br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>h2
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>This is heading 2
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/h2
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span><br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>h3
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>This is heading 3
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/h3
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>
+                        </div>
+                        <a target="_blank" href="tryhtml_basic_headings.html" class="w3-btn w3-margin-bottom">Hãy tự mình thử »</a>
+                    </div>
+                    <hr>
+                    <h2>Đoạn văn HTML</h2>
+                    <p>Các đoạn văn HTML được định nghĩa bằng <code class="w3-codespan">&lt;p&gt;</code>thẻ:</p>
+                    <div class="w3-example">
+                        <h3>Ví dụ</h3>
+                        <div class="w3-code notranslate htmlHigh">
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>p
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>This is a paragraph.
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/p
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span><br>
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>p
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>This is another paragraph.
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/p
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>
+                        </div>
+                        <a target="_blank" href="tryhtml_basic_paragraphs.html" class="w3-btn w3-margin-bottom">Hãy tự mình thử »</a>
+                    </div>
+                    <hr>
+                    <h2>Liên kết HTML</h2>
+                    <p>Liên kết HTML được định nghĩa bằng <code class="w3-codespan">&lt;a&gt;</code>thẻ:</p>
+                    <div class="w3-example">
+                        <h3><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ví dụ</font></font></h3>
+                        <div class="w3-code notranslate htmlHigh">
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>a
+                                <span class="attributecolor" style="color:green"> href
+                                    <span class="attributevaluecolor" style="color:#005cc5">="https://lamtrong.github.io/laptrinhweb"</span>
+                                </span>
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>This is a link
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>/a
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>
+                        </div>
+                        <a target="_blank" href="tryhtml_basic_link.html" class="w3-btn w3-margin-bottom">Hãy tự mình thử »</a>
+                    </div>
+                    <p>Điểm đến của liên kết được chỉ định trong <code class="w3-codespan">href</code>thuộc tính.&nbsp;</p>
+                    <p>Thuộc tính được sử dụng để cung cấp thông tin bổ sung về các thành phần HTML.</p>
+                    <p>Bạn sẽ tìm hiểu thêm về các thuộc tính ở chương sau.</p>
+                    <hr>
+                    <h2>Hình ảnh HTML</h2>
+                    <p>Hình ảnh HTML được định nghĩa bằng <code class="w3-codespan">&lt;img&gt;</code>thẻ .</p>
+                    <p>Tệp nguồn ( <code class="w3-codespan">src</code>), văn bản thay thế ( <code class="w3-codespan">alt</code>), <code class="w3-codespan">width</code>và <code class="w3-codespan">height</code>được cung cấp dưới dạng thuộc tính:</p>
+                    <div class="w3-example">
+                        <h3>Ví dụ</h3>
+                        <div class="w3-code notranslate htmlHigh">
+                            <span class="tagnamecolor" style="color:#905">
+                                <span class="tagcolor" style="color:#999">&lt;</span>img
+                                <span class="attributecolor" style="color:green"> src
+                                    <span class="attributevaluecolor" style="color:#005cc5">="logo.png"</span> alt
+                                    <span class="attributevaluecolor" style="color:#005cc5">="laptrinhweb"</span> width
+                                    <span class="attributevaluecolor" style="color:#005cc5">="104"</span> height
+                                    <span class="attributevaluecolor" style="color:#005cc5">="142"</span>
+                                </span>
+                                <span class="tagcolor" style="color:#999">&gt;</span>
+                            </span>
+                        </div>
+                        <a target="_blank" href="tryhtml_basic_img.html" class="w3-btn w3-margin-bottom">>Hãy tự mình thử »</a>
+                    </div>
+                    <hr>
+                    <h2>Cách xem nguồn HTML</h2>
+                    <p>Bạn đã bao giờ nhìn thấy một trang web và tự hỏi "Ồ! Họ làm điều đó như thế nào?"</p>
+                    <h3>Xem mã nguồn HTML:</h3>
+                    <p>Nhấp vào CTRL + U trên trang HTML hoặc nhấp chuột phải vào trang và chọn "Xem Nguồn Trang". Thao tác này sẽ mở một tab mới chứa mã nguồn HTML của trang.</p>
+                    <h3>Kiểm tra một phần tử HTML:</h3>
+                    <p>Nhấp chuột phải vào một phần tử (hoặc một vùng trống) và chọn "Kiểm tra" để xem các phần tử được tạo thành từ những gì (bạn sẽ thấy cả HTML và CSS). Bạn cũng có thể chỉnh sửa HTML hoặc CSS ngay lập tức trong bảng Phần tử hoặc Kiểu mở ra.</p>
+                    <hr>
+                    <div id="exercisecontainer" src="xrcise_basic.js">
+                        <h2>Bài tập
+                            <span class="questionmark w3-tooltip">
+                                <span style="display:block;text-align:left;">?</span>
+                                <span class="w3-text" style="padding:0 20px 30px 20px">
+                                    <b>What is this?</b><br>Test your skills by answering a few questions about the topics of this page
+                                </span>
+                            </span>
+                        </h2>
+                        <p>Đánh dấu HTML chính xác cho khai báo loại tài liệu là gì?</p><br>
+                        <form action="exercise.asp?x=xrcise_basic1" method="post" target="_blank" rel="opener">
+                            <div class="quizoption">
+                                <input type="radio" name="quizoption" id="quizoption0" value="0">
+                                <label for="quizoption0">
+                                    <code>&lt;!DOCTYPE html&gt;</code>
+                                </label>
+                            </div>
+                            <div class="quizoption">
+                                <input type="radio" name="quizoption" id="quizoption1" value="1">
+                                <label for="quizoption1">
+                                    <code>DOCTYPE html;</code>
+                                </label>
+                            </div>
+                            <div class="quizoption">
+                                <input type="radio" name="quizoption" id="quizoption2" value="2">
+                                <label for="quizoption2">
+                                    <code>--DOCTYPE html;</code>
+                                </label>
+                            </div><br>
+                            <button type="submit" class="ws-btn">Gửi câu trả lời »</button>
+                        </form>
+                    </div>
+                    <hr>
+                    <div class="w3-clear nextprev">
+                        <a class="w3-left w3-btn" href="html_editors.html">❮ Trước</a>
+                        <a class="w3-right w3-btn" href="html_elements.html" data-intercepted="true">Kế tiếp ❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>© 2025 Học HTML &amp; CSS - Thiết kế bởi Bạn ❤️</p>
+        </footer>
+        <script src='../skin/js/main.js'></script>
+    </body>
+</html>
