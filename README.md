@@ -22,7 +22,7 @@ Tài liệu học HTML, CSS, JS cơ bản cho người mới.
 
 ## 📂 Cấu trúc thư mục
 <pre>
-  📁 laptrinhweb/
+📁 laptrinhweb/
 ├── 📁 html/
 │ ├── 📄 html_elements.html
 │ ├── 📄 html_basic.html
