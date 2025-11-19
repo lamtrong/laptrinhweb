@@ -12,6 +12,13 @@
 </p>
 
 ---
+# LapTrinhWeb
+
+**Website:** [https://lamtrong.github.io/laptrinhweb](https://lamtrong.github.io/laptrinhweb)  
+
+Tài liệu học HTML, CSS, JS cơ bản cho người mới.
+
+----
 
 ## 📂 Cấu trúc thư mục
 <pre>
